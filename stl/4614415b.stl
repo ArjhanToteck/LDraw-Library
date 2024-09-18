@@ -1,0 +1,100 @@
+solid GiantLegoRocks
+facet normal 0.0000 0.7500 0.0000
+    outer loop
+        vertex 7.6000 0.0000 13.0000
+        vertex 7.6000 0.0000 -13.0000
+        vertex -7.6000 0.0000 -13.0000
+    endloop
+endfacet
+facet normal 0.0000 0.7500 0.0000
+    outer loop
+        vertex -7.6000 0.0000 -13.0000
+        vertex -7.6000 0.0000 13.0000
+        vertex 7.6000 0.0000 13.0000
+    endloop
+endfacet
+facet normal 0.0000 -0.2500 65.0000
+    outer loop
+        vertex -7.6000 -0.1000 13.0000
+        vertex 7.6000 -0.1000 13.0000
+        vertex 7.6000 0.0000 13.0000
+    endloop
+endfacet
+facet normal 0.0000 -0.2500 65.0000
+    outer loop
+        vertex 7.6000 0.0000 13.0000
+        vertex -7.6000 0.0000 13.0000
+        vertex -7.6000 -0.1000 13.0000
+    endloop
+endfacet
+facet normal -38.0000 -0.2500 0.0000
+    outer loop
+        vertex -7.6000 -0.1000 -13.0000
+        vertex -7.6000 -0.1000 13.0000
+        vertex -7.6000 0.0000 13.0000
+    endloop
+endfacet
+facet normal -38.0000 -0.2500 0.0000
+    outer loop
+        vertex -7.6000 0.0000 13.0000
+        vertex -7.6000 0.0000 -13.0000
+        vertex -7.6000 -0.1000 -13.0000
+    endloop
+endfacet
+facet normal 0.0000 -0.2500 -65.0000
+    outer loop
+        vertex 7.6000 -0.1000 -13.0000
+        vertex -7.6000 -0.1000 -13.0000
+        vertex -7.6000 0.0000 -13.0000
+    endloop
+endfacet
+facet normal 0.0000 -0.2500 -65.0000
+    outer loop
+        vertex -7.6000 0.0000 -13.0000
+        vertex 7.6000 0.0000 -13.0000
+        vertex 7.6000 -0.1000 -13.0000
+    endloop
+endfacet
+facet normal 38.0000 -0.2500 0.0000
+    outer loop
+        vertex 7.6000 -0.1000 13.0000
+        vertex 7.6000 -0.1000 -13.0000
+        vertex 7.6000 0.0000 -13.0000
+    endloop
+endfacet
+facet normal 38.0000 -0.2500 0.0000
+    outer loop
+        vertex 7.6000 0.0000 -13.0000
+        vertex 7.6000 0.0000 13.0000
+        vertex 7.6000 -0.1000 13.0000
+    endloop
+endfacet
+facet normal 0.0000 -325.0000 0.0000
+    outer loop
+        vertex -5.6000 -0.1000 13.0000
+        vertex -7.6000 -0.1000 13.0000
+        vertex -7.6000 -0.1000 -13.0000
+    endloop
+endfacet
+facet normal 0.0000 -325.0000 0.0000
+    outer loop
+        vertex -7.6000 -0.1000 -13.0000
+        vertex -5.6000 -0.1000 -13.0000
+        vertex -5.6000 -0.1000 13.0000
+    endloop
+endfacet
+facet normal 0.0000 -2145.0000 0.0000
+    outer loop
+        vertex 7.6000 -0.1000 13.0000
+        vertex -5.6000 -0.1000 13.0000
+        vertex -5.6000 -0.1000 -13.0000
+    endloop
+endfacet
+facet normal 0.0000 -2145.0000 0.0000
+    outer loop
+        vertex -5.6000 -0.1000 -13.0000
+        vertex 7.6000 -0.1000 -13.0000
+        vertex 7.6000 -0.1000 13.0000
+    endloop
+endfacet
+endsolid GiantLegoRocks
