@@ -30,7 +30,7 @@ def main():
 		if os.path.exists(currentStlPath):
 			# get last time that files were modified
 			stlUpdateDate = os.path.getmtime(currentStlPath)
-			ldrawUpdateDate = getLdrawDate(currentLdrawPath)
+			ldrawUpdateDate = os.path.getmtime(currentLdrawPath)
 
 			# skip if stl is newer than ldraw
 			if ldrawUpdateDate < stlUpdateDate:
@@ -46,35 +46,5 @@ def main():
     		], stdout=outfile, text=True)
 	
 		print(f"part {name} converted to stl")
-
-
-def getLdrawDate(path):
-	# read file lines
-	lines = None
-	with open(path, "r") as file:
-		lines = file.readlines()
-
-	updateDateLine = None
-
-	for line in lines:
-		# check if line is a history element
-		if line.startswith("0 ! HISTORY"):
-			updateDateLine = line.strip()
-
-	updateDate = None
-
-	# check if an update date was found
-	if updateDateLine:
-		# extract date
-		parts = updateDateLine.split(" ")
-		updateDate = parts[1]
-
-		# convert to date format
-		updateDate = datetime.strptime(updateDate, "%Y-%m-%d")
-
-		# convert to unix
-		updateDate = int(time.mktime(updateDate.timetuple()))
-
-	return updateDate
 
 main()
