@@ -13,18 +13,18 @@ def main():
 	print("starting stl conversion")
 
 	# get file names in ldraw parts folder
-	for file in os.listdir(ldrawPartsPath):
+	for ldrawFile in os.listdir(ldrawPartsPath):
 
 		# get name and extension
-		name, extension = os.path.splitext(file)
+		name, extension = os.path.splitext(ldrawFile)
 
 		# skip non-dats
 		if extension != ".dat":
-			print(f"non-dat file {file} skipped")
+			print(f"non-dat element {ldrawFile} skipped")
 			continue
 
 		currentStlPath = f"{stlPartsPath}/{name}.stl"
-		currentLdrawPath = f"{ldrawPartsPath}/{file}"
+		currentLdrawPath = f"{ldrawPartsPath}/{ldrawFile}"
 
 		# check if already copied
 		if os.path.exists(currentStlPath):
@@ -41,7 +41,7 @@ def main():
 		with open(currentStlPath, "w") as outfile:
 			subprocess.run([
         		f"./{ldraw2stlPath}",
-        		"--file", f"{ldrawPartsPath}/{file}",
+        		"--file", f"{ldrawPartsPath}/{ldrawFile}",
         		"--ldrawdir", ldrawPath
     		], stdout=outfile, text=True)
 	

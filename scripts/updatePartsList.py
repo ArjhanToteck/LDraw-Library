@@ -10,14 +10,14 @@ def main():
 	# open parts list file
 	with open(partsListPath, "w") as partsList:
 		# get file names in ldraw parts folder
-		for file in os.listdir(ldrawPartsPath):
+		for ldrawFile in os.listdir(ldrawPartsPath):
 
 			# get name and extension
-			name, extension = os.path.splitext(file)
+			name, extension = os.path.splitext(ldrawFile)
 
 			# skip non-dats
 			if extension != ".dat":
-				print(f"non-dat file {file} skipped")
+				print(f"non-dat element {ldrawFile} skipped")
 				continue
 
 			partsList.write(name + "\n")
