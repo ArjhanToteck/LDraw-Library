@@ -48,3 +48,4 @@ def main():
 		print(f"part {name} converted to stl")
 
 main()
+print("stls updated")

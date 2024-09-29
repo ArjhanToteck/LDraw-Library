@@ -22,6 +22,5 @@ def main():
 
 			partsList.write(name + "\n")
 
-	print("done")
-
 main()
+print("parts list updated")
