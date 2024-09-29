@@ -6,7 +6,7 @@ stlPartsPath = "../stl"
 dimensionsPath = "../dimensions"
 
 def main():
-	print("starting parts list update")
+	print("starting dimensions update")
 
 	# get file names in stl parts folder
 	for stlFile in os.listdir(stlPartsPath):
@@ -19,7 +19,7 @@ def main():
 			print(f"non-stl element {stlFile} skipped")
 			continue
 
-		currentDimensionsPath = f"{dimensionsPath}/stlPartsPath", "w"
+		currentDimensionsPath = f"{dimensionsPath}/{name}.json"
 		currentStlPath = f"{stlPartsPath}/{stlFile}"
 
 		# check if already copied
@@ -40,11 +40,13 @@ def main():
 		minPoint = numpy.min(vectors, axis=(0, 1))
 		maxPoint = numpy.max(vectors, axis=(0, 1))
 
-		# get dimensions
+		# get dimensions and join into string
 		dimensions = maxPoint - minPoint
-
+		dimensions = dimensions.tolist()
+		dimensions = f"[{', '.join(map(str, dimensions))}]"
 		# write dimensions to file
-		with open(currentDimensionsPath) as dimensionsFile:
+		with open(currentDimensionsPath, "w") as dimensionsFile:
 			dimensionsFile.write(dimensions)
 
 main()
+print("dimensions updated")
