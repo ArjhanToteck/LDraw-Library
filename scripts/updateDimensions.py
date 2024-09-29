@@ -36,14 +36,19 @@ def main():
 		# get stl mesh and vectors
 		vectors = mesh.Mesh.from_file(currentStlPath).vectors
 
-		# get min and max point
-		minPoint = numpy.min(vectors, axis=(0, 1))
-		maxPoint = numpy.max(vectors, axis=(0, 1))
+		# default to 0 if no vectors
+		dimensions = "[0, 0, 0]"
 
-		# get dimensions and join into string
-		dimensions = maxPoint - minPoint
-		dimensions = dimensions.tolist()
-		dimensions = f"[{', '.join(map(str, dimensions))}]"
+		if len(vectors) > 0:
+			# get min and max points
+			minPoint = numpy.min(vectors, axis=(0, 1))
+			maxPoint = numpy.max(vectors, axis=(0, 1))
+
+			# get dimensions and join into string
+			dimensions = maxPoint - minPoint
+			dimensions = dimensions.tolist()
+			dimensions = f"[{', '.join(map(str, dimensions))}]"
+
 		# write dimensions to file
 		with open(currentDimensionsPath, "w") as dimensionsFile:
 			dimensionsFile.write(dimensions)
