@@ -2,11 +2,12 @@
 0 Name: 3867p01.dat
 0 Author: Andy Westrate [westrate]
 0 !LDRAW_ORG Part UPDATE 2022-02
-0 !LICENSE Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt
+0 !LICENSE Licensed under CC BY 4.0 : see CAreadme.txt
 
 0 BFC CERTIFY CW
 
 0 !KEYWORDS Imperial Guard, Island, Navy, Pirate, Pirates
+0 !KEYWORDS Rebrickable 3867pr0001, Set 6260
 
 0 !HISTORY 2002-11-30 [PTadmin] Official Update 2002-05
 0 !HISTORY 2003-01-26 [BrickCaster] part fix: grey becomes main color
@@ -16,7 +17,7 @@
 0 !HISTORY 2022-03-06 [PTadmin] Official Update 2022-02
 
 
-0 // studs
+0 // // studs
 
 1 1 150 0 150 1 0 0 0 1 0 0 0 1 stud.dat
 1 1 130 0 150 1 0 0 0 1 0 0 0 1 stud.dat
@@ -274,7 +275,7 @@
 1 1 -110 0 -150 1 0 0 0 1 0 0 0 1 stud.dat
 1 1 -130 0 -150 1 0 0 0 1 0 0 0 1 stud.dat
 1 1 -150 0 -150 1 0 0 0 1 0 0 0 1 stud.dat
-0 Island pattern
+0 // Island pattern
 4 2 57 0 -77 -97 0 -77 -97 0 22 57 0 22
 4 2 -97 0 52 -90 0 57 -90 0 22 -97 0 22
 4 2 -87 0 22 -90 0 22 -90 0 57 -87 0 64
@@ -423,7 +424,7 @@
 1 1 -156 0 156 -4 0 0 0 1 0 0 0 4 1-4disc.dat
 1 1 -156 0 -156 -4 0 0 0 1 0 0 0 -4 1-4disc.dat
 1 1 156 0 -156 4 0 0 0 1 0 0 0 -4 1-4disc.dat
-0 Sides, corners, and bottom
+0 // Sides, corners, and bottom
 1 16 156 4 156 4 0 0 0 1 0 0 0 4 1-4edge.dat
 1 16 -156 4 156 -4 0 0 0 1 0 0 0 4 1-4edge.dat
 1 16 -156 4 -156 -4 0 0 0 1 0 0 0 -4 1-4edge.dat
