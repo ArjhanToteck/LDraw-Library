@@ -1707,130 +1707,130 @@ facet normal 0.0000 -0.6263 0.0000
         vertex 1.3440 -0.1000 -2.8800
     endloop
 endfacet
-facet normal 0.0000 583.2000 0.0000
+facet normal 0.0000 -583.2000 0.0000
     outer loop
-        vertex -24.0000 -0.1000 4.8000
-        vertex -14.2800 -0.1000 4.8000
-        vertex -14.2800 -0.1000 -4.8000
-    endloop
-endfacet
-facet normal 0.0000 583.2000 0.0000
-    outer loop
-        vertex -14.2800 -0.1000 -4.8000
         vertex -24.0000 -0.1000 -4.8000
-        vertex -24.0000 -0.1000 4.8000
+        vertex -14.2800 -0.1000 -4.8000
+        vertex -14.2800 -0.1000 4.8000
     endloop
 endfacet
-facet normal 0.0000 321.3000 0.0000
+facet normal 0.0000 -583.2000 0.0000
     outer loop
         vertex -14.2800 -0.1000 4.8000
-        vertex 14.2800 -0.1000 4.8000
-        vertex 14.2800 -0.1000 3.0000
+        vertex -24.0000 -0.1000 4.8000
+        vertex -24.0000 -0.1000 -4.8000
     endloop
 endfacet
-facet normal 0.0000 321.3000 0.0000
+facet normal 0.0000 -321.3000 0.0000
     outer loop
-        vertex 14.2800 -0.1000 3.0000
         vertex -14.2800 -0.1000 3.0000
+        vertex 14.2800 -0.1000 3.0000
+        vertex 14.2800 -0.1000 4.8000
+    endloop
+endfacet
+facet normal 0.0000 -321.3000 0.0000
+    outer loop
+        vertex 14.2800 -0.1000 4.8000
         vertex -14.2800 -0.1000 4.8000
+        vertex -14.2800 -0.1000 3.0000
     endloop
 endfacet
-facet normal 0.0000 321.3000 0.0000
+facet normal 0.0000 -321.3000 0.0000
     outer loop
-        vertex -14.2800 -0.1000 -3.0000
-        vertex 14.2800 -0.1000 -3.0000
-        vertex 14.2800 -0.1000 -4.8000
-    endloop
-endfacet
-facet normal 0.0000 321.3000 0.0000
-    outer loop
-        vertex 14.2800 -0.1000 -4.8000
         vertex -14.2800 -0.1000 -4.8000
-        vertex -14.2800 -0.1000 -3.0000
-    endloop
-endfacet
-facet normal 0.0000 583.2000 0.0000
-    outer loop
-        vertex 14.2800 -0.1000 4.8000
-        vertex 24.0000 -0.1000 4.8000
-        vertex 24.0000 -0.1000 -4.8000
-    endloop
-endfacet
-facet normal 0.0000 583.2000 0.0000
-    outer loop
-        vertex 24.0000 -0.1000 -4.8000
         vertex 14.2800 -0.1000 -4.8000
+        vertex 14.2800 -0.1000 -3.0000
+    endloop
+endfacet
+facet normal 0.0000 -321.3000 0.0000
+    outer loop
+        vertex 14.2800 -0.1000 -3.0000
+        vertex -14.2800 -0.1000 -3.0000
+        vertex -14.2800 -0.1000 -4.8000
+    endloop
+endfacet
+facet normal 0.0000 -583.2000 0.0000
+    outer loop
+        vertex 14.2800 -0.1000 -4.8000
+        vertex 24.0000 -0.1000 -4.8000
+        vertex 24.0000 -0.1000 4.8000
+    endloop
+endfacet
+facet normal 0.0000 -583.2000 0.0000
+    outer loop
+        vertex 24.0000 -0.1000 4.8000
         vertex 14.2800 -0.1000 4.8000
+        vertex 14.2800 -0.1000 -4.8000
     endloop
 endfacet
-facet normal 0.0000 -2880.0000 0.0000
+facet normal 0.0000 2880.0000 0.0000
     outer loop
-        vertex -24.0000 0.0000 -4.8000
+        vertex -24.0000 0.0000 4.8000
+        vertex 24.0000 0.0000 4.8000
         vertex 24.0000 0.0000 -4.8000
-        vertex 24.0000 0.0000 4.8000
     endloop
 endfacet
-facet normal 0.0000 -2880.0000 0.0000
+facet normal 0.0000 2880.0000 0.0000
     outer loop
-        vertex 24.0000 0.0000 4.8000
-        vertex -24.0000 0.0000 4.8000
-        vertex -24.0000 0.0000 -4.8000
-    endloop
-endfacet
-facet normal 0.0000 0.0000 -30.0000
-    outer loop
-        vertex 24.0000 0.0000 4.8000
-        vertex 24.0000 -0.1000 4.8000
-        vertex -24.0000 -0.1000 4.8000
-    endloop
-endfacet
-facet normal 0.0000 0.0000 -30.0000
-    outer loop
-        vertex -24.0000 -0.1000 4.8000
-        vertex -24.0000 0.0000 4.8000
-        vertex 24.0000 0.0000 4.8000
-    endloop
-endfacet
-facet normal 6.0000 0.0000 0.0000
-    outer loop
-        vertex -24.0000 0.0000 4.8000
-        vertex -24.0000 -0.1000 4.8000
-        vertex -24.0000 -0.1000 -4.8000
-    endloop
-endfacet
-facet normal 6.0000 0.0000 0.0000
-    outer loop
-        vertex -24.0000 -0.1000 -4.8000
+        vertex 24.0000 0.0000 -4.8000
         vertex -24.0000 0.0000 -4.8000
         vertex -24.0000 0.0000 4.8000
     endloop
 endfacet
 facet normal 0.0000 0.0000 30.0000
     outer loop
-        vertex -24.0000 0.0000 -4.8000
-        vertex -24.0000 -0.1000 -4.8000
-        vertex 24.0000 -0.1000 -4.8000
+        vertex -24.0000 0.0000 4.8000
+        vertex -24.0000 -0.1000 4.8000
+        vertex 24.0000 -0.1000 4.8000
     endloop
 endfacet
 facet normal 0.0000 0.0000 30.0000
     outer loop
-        vertex 24.0000 -0.1000 -4.8000
-        vertex 24.0000 0.0000 -4.8000
+        vertex 24.0000 -0.1000 4.8000
+        vertex 24.0000 0.0000 4.8000
+        vertex -24.0000 0.0000 4.8000
+    endloop
+endfacet
+facet normal -6.0000 0.0000 0.0000
+    outer loop
+        vertex -24.0000 0.0000 -4.8000
+        vertex -24.0000 -0.1000 -4.8000
+        vertex -24.0000 -0.1000 4.8000
+    endloop
+endfacet
+facet normal -6.0000 0.0000 0.0000
+    outer loop
+        vertex -24.0000 -0.1000 4.8000
+        vertex -24.0000 0.0000 4.8000
         vertex -24.0000 0.0000 -4.8000
     endloop
 endfacet
-facet normal -6.0000 0.0000 0.0000
+facet normal 0.0000 0.0000 -30.0000
     outer loop
         vertex 24.0000 0.0000 -4.8000
         vertex 24.0000 -0.1000 -4.8000
-        vertex 24.0000 -0.1000 4.8000
+        vertex -24.0000 -0.1000 -4.8000
     endloop
 endfacet
-facet normal -6.0000 0.0000 0.0000
+facet normal 0.0000 0.0000 -30.0000
     outer loop
-        vertex 24.0000 -0.1000 4.8000
-        vertex 24.0000 0.0000 4.8000
+        vertex -24.0000 -0.1000 -4.8000
+        vertex -24.0000 0.0000 -4.8000
         vertex 24.0000 0.0000 -4.8000
+    endloop
+endfacet
+facet normal 6.0000 0.0000 0.0000
+    outer loop
+        vertex 24.0000 0.0000 4.8000
+        vertex 24.0000 -0.1000 4.8000
+        vertex 24.0000 -0.1000 -4.8000
+    endloop
+endfacet
+facet normal 6.0000 0.0000 0.0000
+    outer loop
+        vertex 24.0000 -0.1000 -4.8000
+        vertex 24.0000 0.0000 -4.8000
+        vertex 24.0000 0.0000 4.8000
     endloop
 endfacet
 endsolid GiantLegoRocks

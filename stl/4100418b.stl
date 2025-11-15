@@ -1,16 +1,16 @@
 solid GiantLegoRocks
-facet normal 0.0000 5280.0000 0.0000
+facet normal 0.0000 -5280.0000 0.0000
     outer loop
-        vertex -22.0000 -0.1000 9.6000
-        vertex 22.0000 -0.1000 9.6000
+        vertex -22.0000 -0.1000 -9.6000
         vertex 22.0000 -0.1000 -9.6000
+        vertex 22.0000 -0.1000 9.6000
     endloop
 endfacet
-facet normal 0.0000 5280.0000 0.0000
+facet normal 0.0000 -5280.0000 0.0000
     outer loop
-        vertex 22.0000 -0.1000 -9.6000
-        vertex -22.0000 -0.1000 -9.6000
+        vertex 22.0000 -0.1000 9.6000
         vertex -22.0000 -0.1000 9.6000
+        vertex -22.0000 -0.1000 -9.6000
     endloop
 endfacet
 facet normal 0.0000 0.7500 0.0000

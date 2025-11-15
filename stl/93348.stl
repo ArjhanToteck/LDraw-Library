@@ -8329,18 +8329,18 @@ facet normal 0.0000 18.9238 0.0000
         vertex 15.1590 9.6000 -6.5232
     endloop
 endfacet
-facet normal 0.0000 4800.0000 1600.0000
+facet normal 0.0000 -4800.0000 -1600.0000
     outer loop
-        vertex -8.0000 8.0000 -28.0000
-        vertex -16.0000 0.0000 -4.0000
+        vertex 8.0000 8.0000 -28.0000
         vertex 16.0000 0.0000 -4.0000
+        vertex -16.0000 0.0000 -4.0000
     endloop
 endfacet
-facet normal 0.0000 2400.0000 800.0000
+facet normal 0.0000 -2400.0000 -800.0000
     outer loop
-        vertex 16.0000 0.0000 -4.0000
-        vertex 8.0000 8.0000 -28.0000
+        vertex -16.0000 0.0000 -4.0000
         vertex -8.0000 8.0000 -28.0000
+        vertex 8.0000 8.0000 -28.0000
     endloop
 endfacet
 endsolid GiantLegoRocks
